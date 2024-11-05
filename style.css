@@ -6,7 +6,7 @@ body{
 
 #naptarfel{
     background-color:gainsboro;
-    width: 500px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -17,4 +17,5 @@ button{
 
 #napok{
     width:300px;
+    
 }

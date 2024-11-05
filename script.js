@@ -5,3 +5,7 @@ for(let i=0;i<7;i++){
     jelen.innerText=napok[i]+"\t";
     naphely.appendChild(jelen);
 }
+
+function napok(){
+    
+}
