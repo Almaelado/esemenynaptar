@@ -16,6 +16,12 @@ button{
 }
 
 #napok{
-    width:300px;
-    
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+    padding: 20px;
+}
+
+#honapnap{
+    width: 300px;
 }
