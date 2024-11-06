@@ -1,14 +1,17 @@
-body{
+body {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    justify-content:space-evenly;
+    height: 100vh;
+    margin: 0;
 }
 
-#naptarfel{
-    background-color:gainsboro;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+
+#naptarfel {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    background-color: aquamarine;
 }
 
 button{
@@ -24,4 +27,19 @@ button{
 
 #honapnap{
     width: 300px;
+    text-align: center;
+}
+
+#datum{
+     font-size: 24px;
+}
+
+#napok div{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
 }

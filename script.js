@@ -35,8 +35,14 @@ function renderCalendar() {
     }
 }
 
+function elozo(){
+    mostani.setMonth(mostani.getMonth() - 1);
+    renderCalendar();
+}
 
-
-
+function kovetkezo(){
+    mostani.setMonth(mostani.getMonth() + 1);
+    renderCalendar();
+}
 
 renderCalendar();
